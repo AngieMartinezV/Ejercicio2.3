@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityList">
+
+
+    <TextView
+        android:id="@+id/txtNombreL"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="@string/List"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:footerDividersEnabled="false" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="276dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#F1DE36"
+        android:text="@string/btnRegresar"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegresar" />
+</LinearLayout>

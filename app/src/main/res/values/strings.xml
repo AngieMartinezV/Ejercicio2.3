@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ejercicio2.3</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="Captura">Tomar Foto</string>
+    <string name="Salvar">Salvar contacto\n</string>
+    <string name="Lista">Lista contactos\n</string>
+    <string name="Descrip">Descripcion</string>
+    <string name="List">Lista\n</string>
+    <string name="btnRegresar">Regresar\n</string>
+    <string name="txtDescripcion" />
+    <string name="txtDescripcio" />
+    <string name="Description">Descripcion</string>
+    <string name="btnTak">Tomar Foto\n</string>
+</resources>
